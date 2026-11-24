@@ -238,13 +238,13 @@
       ['Mess lunch', 120, 'Food', day(1)],
       ['Bus pass', 450, 'Transport', day(2)],
       ['Notebook set', 180, 'Study', day(3)],
-      ['Chai with friends', 60, 'Food', day(4)],
-      ['Movie ticket', 250, 'Entertainment', day(5)],
-      ['Groceries', 620, 'Food', day(6)],
-      ['Metro card top-up', 200, 'Transport', day(7)],
-      ['Python course book', 499, 'Study', day(8)],
-      ['Pharmacy', 150, 'Health', day(9)],
-      ['Street food', 90, 'Food', day(10)],
+      ['Chai with friends', 60, 'Food', day(5)],
+      ['Movie ticket', 250, 'Entertainment', day(6)],
+      ['Groceries', 620, 'Food', day(8)],
+      ['Metro card top-up', 200, 'Transport', day(9)],
+      ['Python course book', 499, 'Study', day(11)],
+      ['Pharmacy', 150, 'Health', day(12)],
+      ['Street food', 90, 'Food', day(14)],
     ];
     samples.forEach(function (s) {
       var v = validateExpense({ description: s[0], amount: String(s[1]), category: s[2], date: s[3] });
